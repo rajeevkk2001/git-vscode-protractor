@@ -4,6 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # User-specific files
+
+
 *.suo
 *.user
 *.userosscache
@@ -163,7 +165,12 @@ DocProject/Help/html
 
 # Click-Once directory
 publish/
-
+node_modules/
+allure-results/
+OutputDir/
+allure-report/
+allure-results/
+TestReport*.*
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
@@ -199,6 +206,7 @@ rcf/
 
 # Windows Store app package directories and files
 AppPackages/
+
 BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
